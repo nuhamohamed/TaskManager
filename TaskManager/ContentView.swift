@@ -13,7 +13,7 @@ struct ContentView: View {
        
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .preferredColorScheme(.light)
-                .background(Color.ground)
+                .background(Color.white)
             
     }
 }
@@ -22,8 +22,4 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
-}
-
-extension Color {
-    static let ground = Color("ground")
 }
